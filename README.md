@@ -1,4 +1,4 @@
-# Particle annotations for the large-scale cryo-ET dataset of Chlamydomonas reinhardtii
+# Particle annotations for the large-scale cryo-ET dataset of *Chlamydomonas reinhardtii*
 
 In this repository we store the particle annotations of the EMPIAR-11830 *Chlamydomonas reinhardtii* tomograms.
 The tomograms are available for download from [EMPIAR-11830](https://www.ebi.ac.uk/empiar/EMPIAR-11830/) and [CZI-10302](https://cryoetdataportal.czscience.com/datasets/10302).
@@ -36,7 +36,7 @@ import matplotlib.pyplot as plt
 density = mrcfile.open('densities/atp.mrc').data
 plt.imshow(density.sum(axis=1))  # Simple projection over one of the axes
 ```
-![projection of atp density](densities/atp.png "Projection of ATP density.")
+![projection of atp density](https://github.com/user-attachments/assets/bf0e2736-7061-4b73-aa29-c8b235c03d29 "Projection of ATP density.")
 
 ----
 ## Visualizing the densities in ChimeraX
@@ -45,7 +45,7 @@ Install ChimeraX software from https://www.cgl.ucsf.edu/chimerax/
 ```bash
 chimerax open densities/atp.mrc
 ```
-![3d visualization of atp density](densities/atp_chimera.png "ATP density.")
+![3d visualization of atp density](https://github.com/user-attachments/assets/0dd3461f-3e5d-4cf6-a272-deaed7ec7f98 "ATP density.")
 
 ----
 ## Visualizing the annotations in ArtiaX
@@ -62,4 +62,4 @@ chimerax open densities/atp.mrc
 1. In the `Tomogram` tab, use `Navigation > Slice` to fly through your tomogram.
 1. In `Visualization > Surface display > Load model` attach a density to the annotations.
 
-![Overlay of annotations over a tomogram slice](densities/atp_artiax.png "ATP annotations tomo_1963.")
+![Overlay of annotations over a tomogram slice](https://github.com/user-attachments/assets/afa17f98-62f9-4cb7-a3eb-69d024a1e2cf "ATP annotations tomo_1963.")
