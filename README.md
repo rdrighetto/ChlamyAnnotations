@@ -3,9 +3,9 @@
 In this repository we store the particle annotations of the EMPIAR-11830 *Chlamydomonas reinhardtii* tomograms.
 The tomograms are available for download from [EMPIAR-11830](https://www.ebi.ac.uk/empiar/EMPIAR-11830/) and [CZI-10302](https://cryoetdataportal.czscience.com/datasets/10302).
 
-In the scope of the seminal work ([doi:xxx]()) introducing the dataset, annotations of 7 particles were created: ATPase, Microtubule, Nucleosome, Clathrin, Photosystem II, Ribosome, Rubisco. Unbinned particle coordinates and orientations are stored in the Relion 3 `.star` file format with the pixel size of 1.96Å - available in the [star](star) folder.
+In the scope of the work introducing the dataset ([doi:10.1101/2024.12.28.630444](https://doi.org/10.1101/2024.12.28.630444)), annotations of 7 particles were created: ATPase, Microtubule, Nucleosome, Clathrin, Photosystem II, Ribosome, Rubisco. Unbinned particle coordinates and orientations are stored in the RELION-3 `.star` file format with the pixel size of 1.96 Å - available in the [star](star) folder.
 
-The annotations of each particle were used to create the particles' density maps - available in the [densities](densities) folder. Please note, that some densities were obtained by additional filtering and postprocessing of the subtomograms using various software package such as WarpM, etc. - thus simply averaging the subtomograms at the given coordinates won't lead to the same results.
+The annotations of each particle were used to create the subtomogram averages - available in the [densities](densities) folder. Please note, that some densities were obtained by additional filtering and postprocessing of the subtomograms using various software package such as WarpM, etc. - thus simply averaging the subtomograms at the given coordinates won't lead to exactly the same maps.
 
 ----
 
