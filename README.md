@@ -1,65 +1,35 @@
-# Particle annotations for the large-scale cryo-ET dataset of *Chlamydomonas reinhardtii*
+# Towards community-driven visual proteomics with large-scale cryo-electron tomography of *Chlamydomonas reinhardtii*
 
-In this repository we store the particle annotations of the EMPIAR-11830 *Chlamydomonas reinhardtii* tomograms.
-The tomograms are available for download from [EMPIAR-11830](https://www.ebi.ac.uk/empiar/EMPIAR-11830/) and [CZI-10302](https://cryoetdataportal.czscience.com/datasets/10302).
+This is an accompanying repository to the work [doi:10.1101/2024.12.28.630444](https://doi.org/10.1101/2024.12.28.630444) and the dataset of 1829 cryo-electron tomograms presented within. This repository serves as a central location for exchnage of additional resources and community contributions related to this dataset. The intended audience includes researchers and practitioners in cryo-electron tomography, structural biology, and visual proteomics. It is designed for those interested in exploring large-scale cryo-ET datasets, developing new analysis tools, or contributing annotations and resources to advance the field. Students and educators in related disciplines may also find the repository valuable for learning and teaching. Licensing information can be found in [LICENSE](LICENSE).
 
-In the scope of the work introducing the dataset ([doi:10.1101/2024.12.28.630444](https://doi.org/10.1101/2024.12.28.630444)), annotations of 7 particles were created: ATPase, Microtubule, Nucleosome, Clathrin, Photosystem II, Ribosome, Rubisco. Unbinned particle coordinates and orientations are stored in the RELION-3 `.star` file format with the pixel size of 1.96 Å - available in the [star](star) folder.
 
-The annotations of each particle were used to create the subtomogram averages - available in the [densities](densities) folder. Please note, that some densities were obtained by additional filtering and postprocessing of the subtomograms using various software package such as WarpM, etc. - thus simply averaging the subtomograms at the given coordinates won't lead to exactly the same maps.
+## Dataset of 1829 cryo-electron tomograms
 
-----
+The tomograms are available for download from [EMPIAR-11830](https://www.ebi.ac.uk/empiar/EMPIAR-11830/) and [CZI-10302](https://cryoetdataportal.czscience.com/datasets/10302). 
+Parameters of data acquisition are listed in Section **Cryo-ET data acquisition** of the article.
 
-## Opening the annotations in Python
+Available sets: 
+* Tilt-series in `EER` format & Metadata (26.8TB)
+* Reconstructions (bin4) denoised with CryoCare (915GB)
 
-```bash
-pip install starfile
-```
-```python
-df = starfile.read('atp.star')
-```
 
-| rlnCoordinateX | rlnCoordinateY | rlnCoordinateZ | rlnAngleRot | rlnAngleTilt |  rlnAnglePsi | rlnTomoName | rlnTomoMdocName | rlnParticleName |
-| -------------- | -------------- | -------------- | ----------- | ------------ | ------------ | ----------- | --------------- | --------------- |
-| 1507.044913 | 3671.044913 | 143.764913 | 70.017559 | 154.710832 | -72.044680 | tomo_0024 | 01122021_BrnoKrios_arctis_lam3_pos29 | atpase |
-| 1429.204913 | 3515.764913 | 145.204913 | -54.784770 | 30.163455 | 110.222227 | tomo_0024 | 01122021_BrnoKrios_arctis_lam3_pos29 | atpase |
-| ... |
+## How to contribute?
+
+We welcome contributions from the community to enhance the utility of this dataset. Read how you can get involved in [CONTRIBUTING.md](CONTRIBUDING.md). We look forward to seeing your contributions!
+
+
+
+## Resources (original or contributed)
 
 ----
-## Visualizing the densities in Python
 
-```bash
-pip install mrcfile matplotlib
-```
-```python
-import mrcfile
-import matplotlib.pyplot as plt
-density = mrcfile.open('densities/atp.mrc').data
-plt.imshow(density.sum(axis=1))  # Simple projection over one of the axes
-```
-![projection of atp density](https://github.com/user-attachments/assets/bf0e2736-7061-4b73-aa29-c8b235c03d29 "Projection of ATP density.")
+### Particle annotations of ATPase, Microtubule, Nucleosome, Clathrin, Photosystem II, Rubisco, Ribosome
+
+**Article:** Towards community-driven visual proteomics with large-scale cryo-electron tomography of *Chlamydomonas reinhardtii* \
+**Authors:** Kelley, R., Khavnekar, S., Righetto, R.D., Heebner, J., Obr, M., Zhang, X., Chakraborty, S., Tagiltsev, G., Michael, A.K., van Dorst, S. and Waltz, F. \
+**DOI:** [10.1101/2024.12.28.630444](https://doi.org/10.1101/2024.12.28.630444) \
+**REPO:** [github.com/Chromatin-Structure-Rhythms-Lab/ChlamyAnnotations](https://github.com/Chromatin-Structure-Rhythms-Lab/ChlamyAnnotations) \
+**Subfolder in this repository:** [10.1101-2024.12.28.630444](10.1101-2024.12.28.630444) \
+**Data source & version:** EMPIAR (as of ???)
 
 ----
-## Visualizing the densities in ChimeraX
-
-Install ChimeraX software from https://www.cgl.ucsf.edu/chimerax/
-```bash
-chimerax open densities/atp.mrc
-```
-![3d visualization of atp density](https://github.com/user-attachments/assets/0dd3461f-3e5d-4cf6-a272-deaed7ec7f98 "ATP density.")
-
-----
-## Visualizing the annotations in ArtiaX
-
-1. Install ArtiaX plugin for ChimeraX from https://github.com/FrangakisLab/ArtiaX.
-1. Download the tomogram over which you would like to overlay it's annotations.
-1. Run ChimeraX with `chimerax` command.
-1. Click on ArtiaX plugin tab and click the `Launch` button.
-1. In the `Tomograms` section click on `Open tomogram` and choose desired mrc file.
-1. In the `Particle lists` section click the `Open list` button and choose desired star file.
-1. In `ArtiaX options > Select/Manipulate` change `Pixel size factors Origin` to 1.96.
-1. In the same section, go to `Selection/Display` and choose `Show particles`.
-1. Click `Add selector` and using `rlnTomoName` specify your selected tomogram's name.
-1. In the `Tomogram` tab, use `Navigation > Slice` to fly through your tomogram.
-1. In `Visualization > Surface display > Load model` attach a density to the annotations.
-
-![Overlay of annotations over a tomogram slice](https://github.com/user-attachments/assets/afa17f98-62f9-4cb7-a3eb-69d024a1e2cf "ATP annotations tomo_1963.")
