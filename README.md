@@ -15,7 +15,7 @@ Available sets:
 
 ## How to contribute?
 
-We welcome contributions from the community to enhance the utility of this dataset. Read how you can get involved in [CONTRIBUTING.md](CONTRIBUDING.md). We look forward to seeing your contributions!
+We welcome contributions from the community to enhance the utility of this dataset. Read how you can get involved in [CONTRIBUTING.md](CONTRIBUTING.md). We look forward to seeing your contributions!
 
 
 
