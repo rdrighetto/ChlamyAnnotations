@@ -41,8 +41,9 @@ We welcome contributions from the community to enhance the utility of this datas
 **DOI:** [10.1101/2025.01.16.633326](https://doi.org/10.1101/2025.01.16.633326) \
 **REPO:** [github.com/bionanopatterning/Pom](https://www.github.com/bionanopatterning/Pom) \
 **APP:** https://cryopom.streamlit.app \
-**Data source & version:** [CryoET Data Portal deposition 10314](https://cryoetdataportal.czscience.com/depositions/10314) \
-**Segmented features:** cytoplasm, mitochondrion, nuclear envelope, nucleoplasm, pyrenoid tube, thylakoid, vesicle, Golgi, pyrenoid, stroma, lipid droplet, endoplasmic reticulum, nuclear pore complex, starch granule, cilum, intermediate-filament rich areas, cell wall, chloroplast outer membrane, dense layer, membrane, ribosome, ATP synthase, RuBisCo, TRiC, proteasome. 
+**Segmented features:** cytoplasm, mitochondrion, nuclear envelope, nucleoplasm, pyrenoid tube, thylakoid, vesicle, Golgi, pyrenoid, stroma, lipid droplet, endoplasmic reticulum, nuclear pore complex, starch granule, cilum, intermediate-filament rich areas, cell wall, chloroplast outer membrane, dense layer, membrane, ribosome, ATP synthase, RuBisCo, TRiC, proteasome. \
+**Subfolder in this repository:** [10.1101-2025.01.16.633326](10.1101-2025.01.16.633326) \
+**Data source & version:** [CryoET Data Portal deposition 10314](https://cryoetdataportal.czscience.com/depositions/10314)
 
 ----
 
