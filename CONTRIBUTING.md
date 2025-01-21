@@ -21,5 +21,6 @@ Examples of valuable contributions include:
 
 - Ensure your data or scripts adhere to established community standards.
 - Share only data suitable for git, i.e. use appropriate repositories for storing tomograms and segmentations (e.g. EMPIAR or CZI), and only link them in your README.
+- Prioritize open, machine-readable formats (e.g., CSV instead of XLS) to ensure broader accessibility, compatibility, and ease of integration with computational tools.
 - Use clear and concise documentation to make your contribution accessible.
 - For questions or discussions, feel free to open an [issue](https://github.com/Chromatin-Structure-Rhythms-Lab/ChlamyAnnotations/issues).
