@@ -217,7 +217,7 @@ def collect_tomogram_data(tomos_dir, tomo_prefix, tomolist, ctf3d_path, cryocare
                           pixel_size = 1.96,
                           bin_factor = 4,
                           vol_size = [1024, 1024, 512],
-                          dose_per_tilt = 2.0,
+                          dose_per_tilt = 3.5,
                           cosine_weighting = False
                           ):
     """Process a single tomogram and return its data"""
