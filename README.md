@@ -30,7 +30,7 @@ We welcome contributions from the community to enhance the utility of this datas
 **DOI:** [10.1101/2024.12.28.630444](https://doi.org/10.1101/2024.12.28.630444) \
 **REPO:** [github.com/Chromatin-Structure-Rhythms-Lab/ChlamyAnnotations](https://github.com/Chromatin-Structure-Rhythms-Lab/ChlamyAnnotations) \
 **Subfolder in this repository:** [10.1101-2024.12.28.630444](10.1101-2024.12.28.630444) \
-**Data source & version:** EMPIAR (as of ???)
+**Data source & version:** EMPIAR (as of 28.02.2025)
 
 ----
 
@@ -44,6 +44,14 @@ We welcome contributions from the community to enhance the utility of this datas
 **Segmented features:** cytoplasm, mitochondrion, nuclear envelope, nucleoplasm, pyrenoid tube, thylakoid, vesicle, Golgi, pyrenoid, stroma, lipid droplet, endoplasmic reticulum, nuclear pore complex, starch granule, cilum, intermediate-filament rich areas, cell wall, chloroplast outer membrane, dense layer, membrane, ribosome, ATP synthase, RuBisCo, TRiC, proteasome. \
 **Subfolder in this repository:** [10.1101-2025.01.16.633326](10.1101-2025.01.16.633326) \
 **Data source & version:** [CryoET Data Portal deposition 10314](https://cryoetdataportal.czscience.com/depositions/10314)
+
+----
+
+### chlamydataset2relion5: script to import EMPIAR-11830 data into RELION-5 for subtomogram averaging
+
+**Authors:** Righetto, R.D. & Van der Stappen, P. \
+**REPO:** [github.com/Chromatin-Structure-Rhythms-Lab/ChlamyAnnotations](https://github.com/Chromatin-Structure-Rhythms-Lab/ChlamyAnnotations) \
+**Subfolder in this repository:** [chlamydataset2relion5](chlamydataset2relion5) \
 
 ----
 
