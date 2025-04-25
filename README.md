@@ -10,14 +10,13 @@ Parameters of data acquisition are listed in Section **Cryo-ET data acquisition*
 
 Available sets: 
 * Tilt-series in `EER` format & Metadata (26.8TB)
-* Reconstructions (bin4) denoised with CryoCare (915GB)
+* Reconstructions (bin4) 3D CTF-corrected with IMOD (915GB)
+* Reconstructions (bin4) denoised with cryo-CARE (915GB)
 
 
 ## How to contribute?
 
 We welcome contributions from the community to enhance the utility of this dataset. Read how you can get involved in [CONTRIBUTING.md](CONTRIBUTING.md). We look forward to seeing your contributions!
-
-
 
 ## Resources (original or contributed)
 
@@ -30,7 +29,17 @@ We welcome contributions from the community to enhance the utility of this datas
 **DOI:** [10.1101/2024.12.28.630444](https://doi.org/10.1101/2024.12.28.630444) \
 **REPO:** [github.com/Chromatin-Structure-Rhythms-Lab/ChlamyAnnotations](https://github.com/Chromatin-Structure-Rhythms-Lab/ChlamyAnnotations) \
 **Subfolder in this repository:** [10.1101-2024.12.28.630444](10.1101-2024.12.28.630444) \
-**Data source & version:** EMPIAR (as of ???)
+**Data source & version:** EMPIAR (as of 28.02.2025)
+
+----
+
+### Manual tomogram annotation spreadsheet
+
+**Article:** Towards community-driven visual proteomics with large-scale cryo-electron tomography of *Chlamydomonas reinhardtii* \
+**Authors:** Kelley, R., Khavnekar, S., Righetto, R.D., Heebner, J., Obr, M., Zhang, X., Chakraborty, S., Tagiltsev, G., Michael, A.K., van Dorst, S., Waltz, F., McCafferty, C.L., Lamm, L., Zufferey, S., Van der Stappen, P., van den Hoek, H., Wietrzynski, W., Harar, P., Wan, W., Briggs, J.A.G., Plitzko, J.M., Engel, B.D., Kotecha, A. \
+**DOI:** [10.1101/2024.12.28.630444](https://doi.org/10.5281/zenodo.13941456) \
+**REPO:** [github.com/Chromatin-Structure-Rhythms-Lab/ChlamyAnnotations](https://github.com/Chromatin-Structure-Rhythms-Lab/ChlamyAnnotations) \
+**Subfolder in this repository:** [10.5281-zenodo.13941456/](10.5281-zenodo.13941456/) \
 
 ----
 
@@ -44,6 +53,14 @@ We welcome contributions from the community to enhance the utility of this datas
 **Segmented features:** cytoplasm, mitochondrion, nuclear envelope, nucleoplasm, pyrenoid tube, thylakoid, vesicle, Golgi, pyrenoid, stroma, lipid droplet, endoplasmic reticulum, nuclear pore complex, starch granule, cilum, intermediate-filament rich areas, cell wall, chloroplast outer membrane, dense layer, membrane, ribosome, ATP synthase, RuBisCo, TRiC, proteasome. \
 **Subfolder in this repository:** [10.1101-2025.01.16.633326](10.1101-2025.01.16.633326) \
 **Data source & version:** [CryoET Data Portal deposition 10314](https://cryoetdataportal.czscience.com/depositions/10314)
+
+----
+
+### chlamydataset2relion5: script to import EMPIAR-11830 data into RELION-5 for subtomogram averaging
+
+**Authors:** Righetto, R.D. & Van der Stappen, P. \
+**REPO:** [github.com/Chromatin-Structure-Rhythms-Lab/ChlamyAnnotations](https://github.com/Chromatin-Structure-Rhythms-Lab/ChlamyAnnotations) \
+**Subfolder in this repository:** [chlamydataset2relion5](chlamydataset2relion5)
 
 ----
 
