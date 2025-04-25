@@ -12,8 +12,8 @@ def parse_args():
     parser.add_argument('chlamy_visual_proteomics', type=str, help='Directory containing tomogram folders')
     parser.add_argument('--output_dir', type=str, default='relion_star_files', help='Output directory for RELION-5 star files')
     parser.add_argument('--correspondence_star', type=str, default='tomolist_num_dir.star', help='STAR file with correspondence between tomo_num and stack_dir.',required=True)
-    parser.add_argument('--ctf3d', type=str, default='ctf3d_bin4', help='Path to ctf3d tomos')
-    parser.add_argument('--cryocare', type=str, default='cryocare_bin4', help='Path to cryo-CARE denoised tomos')
+    parser.add_argument('--ctf3d', type=str, default='ctf3d_bin4', help='Path to ctf3d tomos. It will be referenced in the output tomograms.star, but does not need to exist.')
+    parser.add_argument('--cryocare', type=str, default='cryocare_bin4', help='Path to cryo-CARE denoised tomos. It will be referenced in the output tomograms.star, but does not need to exist.')
     parser.add_argument('--cosine_weight', action='store_true', default=False, help='Weight tilt images by cosine of tilt angle.')
     parser.add_argument('--include', type=str, nargs='+', default=None, 
                         help='Include only these tomogram prefixes (e.g., Position_1 Position_2)')
