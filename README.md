@@ -39,7 +39,7 @@ We welcome contributions from the community to enhance the utility of this datas
 **Authors:** Kelley, R., Khavnekar, S., Righetto, R.D., Heebner, J., Obr, M., Zhang, X., Chakraborty, S., Tagiltsev, G., Michael, A.K., van Dorst, S., Waltz, F., McCafferty, C.L., Lamm, L., Zufferey, S., Van der Stappen, P., van den Hoek, H., Wietrzynski, W., Harar, P., Wan, W., Briggs, J.A.G., Plitzko, J.M., Engel, B.D., Kotecha, A. \
 **DOI:** [10.1101/2024.12.28.630444](https://doi.org/10.5281/zenodo.13941456) \
 **REPO:** [github.com/Chromatin-Structure-Rhythms-Lab/ChlamyAnnotations](https://github.com/Chromatin-Structure-Rhythms-Lab/ChlamyAnnotations) \
-**Subfolder in this repository:** [10.5281-zenodo.13941456/](10.5281-zenodo.13941456/) \
+**Subfolder in this repository:** [10.5281-zenodo.13941456/](10.5281-zenodo.13941456/)
 
 ----
 
