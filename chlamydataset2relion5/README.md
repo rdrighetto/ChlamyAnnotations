@@ -38,6 +38,9 @@ wget -r -N -np -nH --cut-dirs=4 --reject "*.eer,*_dose-filt.*,*_EVN.st,*_ODD.st"
 
 3. **OPTIONAL:** Download the [ctf3d](https://ftp.ebi.ac.uk/empiar/world_availability/11830/data/ctf3d_bin4/) and [cryo-CARE](https://ftp.ebi.ac.uk/empiar/world_availability/11830/data/cryocare_bin4/) denoised tomograms (see example above)
 
+* The `cryocare_bin4` tomograms have higher contrast, they are good for visualization and deep learning-based particle pickers
+* The `ctf3d_bin4` tomograms have high-resolution information preserved (despite lower contrast) and are good for template matching
+
 4. Run the script:
 
 ```bash
