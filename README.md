@@ -10,8 +10,8 @@ Parameters of data acquisition are listed in Section **Cryo-ET data acquisition*
 
 Available sets: 
 * Tilt-series in `EER` format & Metadata (26.8TB)
-* Reconstructions (bin4) 3D CTF-corrected with IMOD (915GB)
-* Reconstructions (bin4) denoised with cryo-CARE (915GB)
+* Reconstructions (bin4) denoised with cryo-CARE (3.6TB) - These files are not 3D CTF-corrected
+* Reconstructions (bin4) 3D CTF-corrected with IMOD (1.8TB) - These files are not cryo-CARE denoised
 
 
 ## How to contribute?
