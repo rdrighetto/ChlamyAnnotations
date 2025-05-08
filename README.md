@@ -66,7 +66,7 @@ We welcome contributions from the community to enhance the utility of this datas
 
 ### TomoGuide – a cryo-electron tomography processing workflow tutorial
 
-**Authors:** Van der Stappen, Philippe & Waltz, Florent \
+**Authors:** Van der Stappen, P. & Waltz, F. \
 **DOI:** [10.5281/zenodo.15358525](https://doi.org/10.5281/zenodo.15358525) \
 **REPO:** [github.com/TomoGuide/TomoGuide.github.io](https://github.com/TomoGuide/TomoGuide.github.io) \
 **Subfolder in this repository:** [10.5281-zenodo.15358525](10.5281-zenodo.15358525)
