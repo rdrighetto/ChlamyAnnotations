@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/imgs/00_logo.svg" alt="TomoGuide Logo" width="200" />
+  <img src="00_logo.svg" alt="TomoGuide Logo" width="200" />
 </p>
 
 <h1 align="center">TomoGuide 🧊 – a cryo-electron tomography processing workflow tutorial</h1>
