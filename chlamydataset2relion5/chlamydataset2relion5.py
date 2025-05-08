@@ -9,7 +9,7 @@ import starfile
 
 def parse_args():
     parser = argparse.ArgumentParser(description='Generate RELION-5 tomograms.star for Chlamy dataset (EMPIAR-11830).')
-    parser.add_argument('chlamy_visual_proteomics', type=str, help='Directory containing tomogram folders')
+    parser.add_argument('--tomos_dir', type=str, help='Directory containing tomogram folders')
     parser.add_argument('--output_dir', type=str, default='relion_star_files', help='Output directory for RELION-5 star files')
     parser.add_argument('--correspondence_star', type=str, default='tomolist_num_dir.star', help='STAR file with correspondence between tomo_num and stack_dir.',required=True)
     parser.add_argument('--ctf3d', type=str, default='ctf3d_bin4', help='Path to ctf3d tomos. It will be referenced in the output tomograms.star, but does not need to exist.')
