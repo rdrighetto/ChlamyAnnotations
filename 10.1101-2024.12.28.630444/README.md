@@ -50,8 +50,9 @@ chimerax open densities/atp.mrc
 1. Install ArtiaX plugin for ChimeraX from https://github.com/FrangakisLab/ArtiaX.
 1. Download the tomogram over which you would like to overlay it's annotations.
 1. Run ChimeraX with `chimerax` command.
+1. Click Open and choose the desired tomogram (.mrc or .rec file)
+1. Run `volume #1 origin 0,0,0` to reset the tomogram's origin.
 1. Click on ArtiaX plugin tab and click the `Launch` button.
-1. In the `Tomograms` section click on `Open tomogram` and choose desired mrc file.
 1. In the `Particle lists` section click the `Open list` button and choose desired star file.
 1. In `ArtiaX options > Select/Manipulate` change `Pixel size factors Origin` to 1.96.
 1. In the same section, go to `Selection/Display` and choose `Show particles`.
