@@ -12,8 +12,8 @@ The annotations of each particle were used to create the subtomogram averages - 
 | Microtubule    | [microtubule.star](star/microtubule.star)	| [microtubule.mrc](densities/microtubule.mrc)	| [EMD-51804](https://www.ebi.ac.uk/emdb/EMD-51804) | 4.7 Å | tomo_2050 |
 | Nucleosome     | [nucleosome.star](star/nucleosome.star)		| [nucleosome.mrc](densities/nucleosome.mrc)	| [EMD-19906](https://www.ebi.ac.uk/emdb/EMD-19906) | 9.6 Å | tomo_2173 |
 | Photosystem II | [ps2.star](star/ps2.star)					| [ps2.mrc](densities/ps2.mrc)					| [EMD-51731](https://www.ebi.ac.uk/emdb/EMD-51731) | 19 Å  | tomo_0573 |
-| Rubisco        | TBA											| [rubisco.mrc](densities/rubisco.mrc)			| [EMD-51848](https://www.ebi.ac.uk/emdb/EMD-51848) | 7.5 Å | tomo_0349 |
-| Ribosome 80S   | TBA											| TBA											| [EMD-51847](https://www.ebi.ac.uk/emdb/EMD-51847) | 4.0 Å | tomo_0017 |
+| Rubisco        | [rubisco.star](star/rubisco.star)			| [rubisco.mrc](densities/rubisco.mrc)			| [EMD-51848](https://www.ebi.ac.uk/emdb/EMD-51848) | 7.5 Å | tomo_0349 |
+| Ribosome 80S   | [ribosome80S.star](star/ribosome80S.star)	| [ribosome80S.mrc](densities/ribosome80S.mrc)	| [EMD-51847](https://www.ebi.ac.uk/emdb/EMD-51847) | 4.0 Å | tomo_0017 |
 
 
 ----
