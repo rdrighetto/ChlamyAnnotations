@@ -101,3 +101,13 @@ We welcome contributions from the community to enhance the utility of this datas
 **REPO:** [github.com/Chromatin-Structure-Rhythms-Lab/ChlamyAnnotations](https://github.com/Chromatin-Structure-Rhythms-Lab/ChlamyAnnotations) \
 **Subfolder in this repository:** [10.1126-science.ads8738](10.1126-science.ads8738) \
 **Data source & version:** EMPIAR (as of 28.02.2025)
+
+----
+
+### Presentation at Chlamy Meeting 2025  
+
+**Author:** Ricardo D. Righetto \
+**REPO:** [github.com/Chromatin-Structure-Rhythms-Lab/ChlamyAnnotations](https://github.com/Chromatin-Structure-Rhythms-Lab/ChlamyAnnotations) \
+**Subfolder in this repository:** [chlamy2025](chlamy2025)
+
+----
