@@ -93,3 +93,10 @@ We welcome contributions from the community to enhance the utility of this datas
 
 ----
 
+### Presentation at Chlamy Meeting 2025  
+
+**Author:** Ricardo D. Righetto \
+**REPO:** [github.com/TomoGuide/TomoGuide.github.io](https://github.com/TomoGuide/TomoGuide.github.io) \
+**Subfolder in this repository:** [chlamy2025](chlamy2025)
+
+----
