@@ -93,3 +93,11 @@ We welcome contributions from the community to enhance the utility of this datas
 
 ----
 
+### Particle annotations of Respirasome, ATPase, Mitoribosome, HSP60, putative Prohibitin
+
+**Article:** In-cell architecture of the mitochondrial respiratory chain \
+**Authors:** Waltz, F., Righetto, R.D., Lamm, L., Salinas-Giegé, T., Kelley, R., Zhang, X., Obr, M., Khavnekar, S., Kotecha, A., Engel, B.D. \
+**DOI:** [10.1126/science.ads8738](https://doi.org/10.1126/science.ads8738) \
+**REPO:** [github.com/Chromatin-Structure-Rhythms-Lab/ChlamyAnnotations](https://github.com/Chromatin-Structure-Rhythms-Lab/ChlamyAnnotations) \
+**Subfolder in this repository:** [10.1126-science.ads8738](10.1126-science.ads8738) \
+**Data source & version:** EMPIAR (as of 28.02.2025)
